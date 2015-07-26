@@ -8,7 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.codehaus.mojo.archetypes</groupId>
     <artifactId>sample-javafx</artifactId>
-    <version>0.5</version>
+    <version>0.6-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
     <name>Sample JavaFX Archetype</name>
     <description>Sample archetype for creating a JavaFX application</description>
@@ -21,7 +21,7 @@
         <connection>scm:git:https://github.com/mojohaus/sample-javafx.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/mojohaus/sample-javafx</developerConnection>
         <url>https://github.com/mojohaus/sample-javafx/tree/${project.scm.tag}</url>
-        <tag>sample-javafx-0.5</tag>
+        <tag>master</tag>
     </scm>
     <build>
         <pluginManagement>
